@@ -1,5 +1,6 @@
 <template>
   <div class="corpo">
+    <meu-menu />
     <transition name="pagina">
       <router-view />
     </transition>
@@ -11,7 +12,7 @@ import Menu from "./components/shared/menu/Menu.vue";
 
 export default {
   components: {
-    'menu-menu': Menu
+    'meu-menu': Menu
   }
 };
 </script>
